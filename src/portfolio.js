@@ -11,10 +11,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
+  username: "Spin Soft",
   title: "Hi all, I'm SpinSoft Skill Trainner",
   subTitle: emoji(
-    "A passionate about developing your skills 🚀 having an experience of building Front end, Backend and Digital Marketing, Web and Mobile applications frameworks."
+    "A passionate about developing your skills 🚀 having an experience of building UI , Data and Digital Marketing, Web and Mobile applications frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -39,7 +39,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "What I company do ",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
@@ -47,7 +47,7 @@ const skillsSection = {
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean/ GCP"
     )
   ],
 
@@ -144,15 +144,19 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Marketing Area", //Insert stack or technology you have experience in
+      progressPercentage: "40%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Programming with Data Engineer Skill set",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Programming with UI Engineer Skill sets",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Programming with Sofware Engineer(UI and Data)",
       progressPercentage: "60%"
     }
   ],
@@ -237,9 +241,9 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Leaderboard 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "The private leaderboard is calculated with approximately 30% of the test data. This competition has completed. This leaderboard reflects the final standings.!",
 
   achievementsCards: [
     {
@@ -249,41 +253,13 @@ const achievementSection = {
       image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Certification"
         },
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
         },
         {
           name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
         }
       ]
     }
@@ -351,8 +327,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "",
+  email_address: "skillsoft.in@gmail.com"
 };
 
 // Twitter Section
