@@ -16,8 +16,6 @@ const greeting = {
   subTitle: emoji(
     "A passionate about developing your skills 🚀 having an experience of building UI , Data and Digital Marketing, Web and Mobile applications frameworks."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -247,20 +245,15 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Code Competitions",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Within each category of expertise, there are five performance tiers that can be achieved in accordance with the quality and quantity of work you produce: Novice(Registered), Contributor, Expert, Master, and Grandmaster.",
       image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
         {
-          name: "Certification"
+          name: "Rank     Tier      User     Medal      Points"
         },
-        {
-          name: "Award Letter",
-        },
-        {
-          name: "Google Code-in Blog",
-        }
+
       ]
     }
   ],
