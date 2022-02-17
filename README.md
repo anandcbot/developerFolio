@@ -1,4 +1,4 @@
-# Software Developer Folio 
+# Software skills-spinsoft academy
 
 ## Table of Contents
 - [Sections](#sections)
@@ -28,7 +28,7 @@
 ✔️ Twitter Timeline\
 ✔️ GitHub Profile
 
-To view a live example, **[click here](https://developerfolio.js.org/)**.
+To view a live example, **[click here](https://skills-spinsoftacademy.js.org/)**.
 
 
 ## Getting Started
@@ -43,16 +43,16 @@ npm@6.9.0 or higher
 git@2.17.1 or higher
 ```
 
-## How To Use 
+## How To Use
 
-From your command line, clone and run developerFolio:
+From your command line, clone and run skills-spinsoftacademy:
 
 ```bash
 # Clone this repository
-git clone https://github.com/saadpasta/developerFolio.git
+git clone https://github.com/saadpasta/skills-spinsoftacademy.git
 
 # Go into the repository
-cd developerFolio
+cd skills-spinsoftacademy
 
 # Setup default environment variables
 
@@ -70,8 +70,8 @@ npm start
 ### Docker Commands Optional
 
 ```
-1) BUILD IMAGE : docker build -t developerfolio:latest .
-2) RUN IMAGE: docker run -t -p 3000:3000 developerfolio:latest
+1) BUILD IMAGE : docker build -t skills-spinsoftacademy:latest .
+2) RUN IMAGE: docker run -t -p 3000:3000 skills-spinsoftacademy:latest
 ```
 
 ## Linking Portfolio to GitHub
@@ -80,10 +80,10 @@ Generate a GitHub personal access token following these [instructions](https://h
 
 1. Create a file called .env in the root directory of your project (if not done already in section: [How To Use](#how-to-use))
 
-Note: Configuring environment variables before deploying your portfolio is highly recommended as some components depend on API data. 
+Note: Configuring environment variables before deploying your portfolio is highly recommended as some components depend on API data.
 
 ```bash
-- DeveloperFolio
+- skills-spinsoftacademy
   - node_modules
   - public
   - src
@@ -138,7 +138,7 @@ We highly recommend to read through the [Deploying on GitHub Pages](https://crea
 
 This section guides you to deploy your portfolio on GitHub pages.
 
-- Navigate to `package.json` and enter your domain name instead of `https://developerfolio.js.org/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/developerFolio`, add the same to the homepage section of `package.json`.
+- Navigate to `package.json` and enter your domain name instead of `https://skills-spinsoftacademy.js.org/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/skills-spinsoftacademy`, add the same to the homepage section of `package.json`.
 
 - In short you can also add `/devloperFolio` to `package.json` as both are exactly same. Upon doing so, you tell `create-react-app` to add the path assets accordingly.
 
@@ -150,12 +150,12 @@ This section guides you to deploy your portfolio on GitHub pages.
 
 You could also host directly with Netlify by linking your own repository.
 
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saadpasta/developerFolio)
+[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saadpasta/skills-spinsoftacademy)
 
 For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
 
-## Technologies Used 
+## Technologies Used
 
 - [React](https://reactjs.org/)
 - [graphql](https://graphql.org/)
